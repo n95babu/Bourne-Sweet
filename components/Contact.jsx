@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+function Contact() {
   return (
     <div>
-      <h1>App</h1>
+      Contact 
     </div>
   );
 }
 
-export default App;
+export default Contact;
