@@ -7,7 +7,6 @@
 - [Project Description](#project-description)
   - [Project Team](#project-team)
   - [Project Inspiration](#project-inspiration)
-  - [Project Permissions](#project-permissions)
 - [Design](#design)
   - [Sitemap](#sitemap)
   - [Wireframes](#wireframes)
@@ -33,20 +32,17 @@
 
 # Overview
 
-![Logo](Logo goes Here)
-
+![Logo](https://imgur.com/OdED2tB.png)
 ## Project Description
-
+Bourne-Sweet is start up ......................................................................
 
 
 #### Project Team
 Created, designed, and developed by [Christoper Clarke](https://github.com/chrisclarkedev), [Nazrul Babu](https://github.com/n95babu) & [Dwayne Thomas](https://github.com/Wiz34) (Git Czar) for Bourne-Sweet
 
+Team values, communication preferences, and other group expectations can be found on the [Bourne-Sweet google doc](https://docs.google.com/document/d/1nJU-6l4PqkGU3TADNkUl7IXFQPWu7G3SJJH43KJjwBw/edit).
 
 #### Project Inspiration
-
-
-#### Project Permissions
 
 
 # Design
@@ -68,11 +64,9 @@ Created, designed, and developed by [Christoper Clarke](https://github.com/chris
 ## Functional Heirarchy
 
 client
-
 |___ public
       |___ favicon.ico
       |___ index.html
-
 |___ src
       |___ assets
             |___ images
