@@ -1,12 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import Nav from './components/Nav';
+import Contact from './components/Contact'
+import About from './components/About'
+import Home from './components/Home'
+import Sweets from './components/Sweets'
+import HomeImage from './components/HomeImage'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <Router>
+      <div>
+        <Nav />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/sweets' components={Sweets} />
+        </Switch>
+
+      </div>
+    </Router>
   );
 }
 

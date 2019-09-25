@@ -1,11 +1,12 @@
 import React from 'react';
+import './Contact.css'
 
-import './App.css';
+
 
 function Contact() {
   return (
-    <div>
-      Contact 
+    <div className='contact-wrap'>
+      <h1>Contact</h1>
     </div>
   );
 }
