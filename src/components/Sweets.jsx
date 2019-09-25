@@ -2,9 +2,9 @@ import React from 'react';
 
 
 
-function Sweets() {
+const Sweets = () => {
   return (
-    <div>
+    <div className="sweet_Pg">
       <h1>
         Sweets Page
       </h1>
