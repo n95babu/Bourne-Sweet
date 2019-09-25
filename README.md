@@ -1,6 +1,7 @@
 # Bourne-Sweet
 
-<p style="text-align: center;"><em>Logo go here</em></p>
+![Bourne-Sweet](https://images.unsplash.com/photo-1488474229303-56bb637803f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
+<p style="text-align: center;"><em></em></p>
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -15,16 +16,16 @@
   - [Branding](#branding)
 - [Development](#development)
   - [Functional Goals](#functional-goals)
-    - [MVP](#mvp)
-    - [Post-MVP](#post-mvp)
   - [Functional Heirarchy](#functional-heirarchy)
     - [Repo Structure](#repo-structure)
-    - [Database Table Structure](#express-database-structure)
     - [React Structure](#react-structure)
   - [Functional Components](#functional-components)
     - [Component Breakdown](#component-breakdown)
     - [Component Timeframes](#component-timeframes)
   - [Supporting Libraries](#supporting-libraries)
+- [Project Review](#project-review)
+  - [Code Showcase](#code-showcase)
+  - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
 - [Project Followup](#project-followup)
 
 <br>
@@ -32,10 +33,15 @@
 
 # Overview
 
+![Logo](Logo goes Here)
+
 ## Project Description
 
 
+
 #### Project Team
+Created, designed, and developed by [Christoper Clarke](https://github.com/chrisclarkedev), [Nazrul Babu](https://github.com/n95babu) & [Dwayne Thomas](https://github.com/Wiz34) (Git Czar) for Bourne-Sweet
+
 
 #### Project Inspiration
 
