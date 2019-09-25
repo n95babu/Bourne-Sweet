@@ -1,68 +1,113 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bourne-Sweet
 
-## Available Scripts
+<p style="text-align: center;"><em>Logo go here</em></p>
 
-In the project directory, you can run:
+## Table of Contents
+- [Project Description](#project-description)
+  - [Project Team](#project-team)
+  - [Project Inspiration](#project-inspiration)
+  - [Project Permissions](#project-permissions)
+- [Design](#design)
+  - [Sitemap](#sitemap)
+  - [Wireframes](#wireframes)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  - [Branding](#branding)
+- [Development](#development)
+  - [Functional Goals](#functional-goals)
+    - [MVP](#mvp)
+    - [Post-MVP](#post-mvp)
+  - [Functional Heirarchy](#functional-heirarchy)
+    - [Repo Structure](#repo-structure)
+    - [Database Table Structure](#express-database-structure)
+    - [React Structure](#react-structure)
+  - [Functional Components](#functional-components)
+    - [Component Breakdown](#component-breakdown)
+    - [Component Timeframes](#component-timeframes)
+  - [Supporting Libraries](#supporting-libraries)
+- [Project Followup](#project-followup)
 
-### `npm start`
+<br>
+<br>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Overview
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Project Description
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Project Team
 
-### `npm run build`
+#### Project Inspiration
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### Project Permissions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Sitemap
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Wireframes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Desktop 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Functional Goals
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Functional Heirarchy
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+client
 
-### Making a Progressive Web App
+|___ public
+      |___ favicon.ico
+      |___ index.html
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+|___ src
+      |___ assets
+            |___ images
+            |___ graphics
+            
+      |___ components
+            |___ Header.jsx
+            |___ Footer.jsx
 
-### Advanced Configuration
+      |___ pages
+            |___ Home.jsx
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+      |___ App.css
+      |___ App.js
+      |___ index.css
+      |___ index.js
+      |___ logo.svg
 
-### Deployment
+|___ readme.md
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+<br>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Supporting Libraries
+
+> Packages installed via node go here.
+
+
+* Client-Side
+  * material-ui
+  * react
+  * react-router-dom
+  * react-spring
+  * react-with-gesture
+  * react-star-rating
+
+<br>
+<br>
+
+
+# Project Followup
+
+> Any tasks we would like to revisit after graduation go here.
