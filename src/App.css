@@ -15,5 +15,8 @@
 }
 
 /* .carousel .slider img {
-  width: 100%;
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
 } */
