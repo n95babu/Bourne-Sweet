@@ -21,6 +21,7 @@ class ContactForm extends React.Component {
         console.log(error)
       });
     e.preventDefault();
+    alert("Message Sent")
   }
   handleFields = e => this.setState({
     [e.target.name]: e.target.value
@@ -32,7 +33,7 @@ class ContactForm extends React.Component {
       <div className="form-address" id="contact">
         <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact Us</p>
           <input className="input" type="text" name="name" onChange={this.handleFields} placeholder="Name" />
-          <input className="input" type="text" name="Email" onChange={this.handleFields}
+          <input className="input" type="text" name="email" onChange={this.handleFields}
             placeholder="Email" />
           <input className="input" type="" name="message" onChange={this.handleFields} placeholder="What's on your mind?" />
           <Button type="submit">SUMBIT</Button>
