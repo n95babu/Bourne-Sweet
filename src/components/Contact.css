@@ -1,10 +1,80 @@
-
-
 body, html {
   height: 100%;
 }
 
-.contact-wrap {
+/* .contact-wrap {
  height: 100%;
  background-color: red;
+} */
+
+.contact-section p {
+  display: flex;
+  align-self: center;
+  /* text-align: center; */
+}
+
+.contact-us {
+  font-size: 36px;
+  font-family: 'Nunito', sans-serif;
+  color: #747474;
+}
+
+.contact-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.contact-form {
+  /* margin: 0 auto; */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  flex-basis: 500px;
+  flex-grow: 1;
+  /* width: max-content; */
+  height: 500px;
+}
+
+.contact-form .input {
+  display: flex;
+  font-style: oblique;
+  width: -webkit-fill-available;
+  margin: auto;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.form-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 33px;
+}
+
+.btn-outline-dark {
+  margin-top: 1em;
+  width: 110px;
+}
+
+.btn-outline-dark:hover {
+  background: pink;
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.address {
+  flex-grow: 1;
+  text-align: center;
 }

@@ -9,21 +9,22 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
-function App() {
-  return (
-    <Router>
-      <div>
-        <Nav />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/sweets' components={Sweets} />
-        </Switch>
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div>
+          <Nav />
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/contact' component={Contact} />
+            <Route path='/sweets' components={Sweets} />
+          </Switch>
 
-      </div>
-    </Router>
-  );
+        </div>
+      </Router>
+    );
+  }
 }
-
 export default App;

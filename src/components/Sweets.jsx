@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 const Sweets = () => {
   return (
     <div className="sweet_Pg">
