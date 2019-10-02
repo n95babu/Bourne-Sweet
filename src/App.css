@@ -5,13 +5,12 @@
   text-align: center;
 }
 
-
 .carousel .slide {
   height: 600px;
   margin: 0 auto;
 }
 
-.carousel .slide img{
+.carousel .slide img {
   height: 600px;
 }
 
@@ -29,3 +28,17 @@
   max-width: 400px;
   max-height: 400px;
 } */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  margin: 5px;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}
