@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import './Nav.css'
-import logo from './bsweet.png'
+import logo from '../assets /bsweet.png'
 
 const Nav = () => {
   return (
@@ -13,15 +13,12 @@ const Nav = () => {
         <Link to='/about'>
           <li>About</li>
         </Link>
-
         <Link to='/contact'>
           <li>Contact</li>
         </Link>
-
         <Link to='/Sweets'>
           <li>Sweets</li>
         </Link>
-
       </ul>
     </nav>
   );
