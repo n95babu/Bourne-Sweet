@@ -18,6 +18,9 @@ class mainCarousel extends Component {
           <div>
             <img src="https://images.unsplash.com/photo-1426869884541-df7117556757?ixlib=rb-1.2.1" />
           </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1504674138570-5fe6671ec5ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" />
+          </div>
         </Carousel>
       </div>
     );
