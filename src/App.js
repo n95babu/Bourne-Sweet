@@ -4,7 +4,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Home from './components/Home';
 import Sweets from './components/Sweets';
-import footer from './components/footer';
+import Footer from './components/footer';
 import HomeImage from './components/HomeImage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -23,11 +23,11 @@ class App extends React.Component {
               <Route path='/contact' component={Contact} />
               <Route path='/sweets' components={Sweets} />
             </Switch>
-
           </div>
         </Router>
-        <footer />
+        <Footer />
       </>
+
     );
   }
 }
