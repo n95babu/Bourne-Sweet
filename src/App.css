@@ -5,13 +5,12 @@
   text-align: center;
 }
 
-
 .carousel .slide {
   height: 600px;
   margin: 0 auto;
 }
 
-.carousel .slide img{
+.carousel .slide img {
   height: 600px;
 }
 
@@ -29,3 +28,38 @@
   max-width: 400px;
   max-height: 400px;
 } */
+
+/* ======================= About=====================*/
+
+.about_me_pic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+
+.about_me_text {
+  text-align: center;
+  margin: 25px;
+  font-size: 25px;
+}
+
+/* ======================Footer ====================*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  margin: 5px;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}

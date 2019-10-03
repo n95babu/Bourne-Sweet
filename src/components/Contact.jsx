@@ -20,8 +20,8 @@ class ContactForm extends React.Component {
       .catch(function (error) {
         console.log(error)
       });
-    e.preventDefault();
-    alert("Message Sent")
+    // e.preventDefault();
+    // alert("Message Sent")
   }
   handleFields = e => this.setState({
     [e.target.name]: e.target.value
