@@ -1,12 +1,15 @@
 import React from 'react';
-import Nav from './components/Nav';
 import Contact from './components/Contact';
 import About from './components/About';
 import Home from './components/Home';
-import Sweets from './components/Sweets';
 import Footer from './components/footer';
-import HomeImage from './components/HomeImage';
+import Navigation from './components/Navigation';
+import Desserts from './components/Desserts'
+import Pies from './components/Pies'
+import Cakes from './components/Cakes'
+import Cookies from './components/Cookies'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 import './App.css';
 
@@ -16,12 +19,16 @@ class App extends React.Component {
       <>
         <Router>
           <div>
-            <Nav />
+            <Navigation />
             <Switch>
               <Route path='/' exact component={Home} />
               <Route path='/about' component={About} />
               <Route path='/contact' component={Contact} />
-              <Route path='/sweets' components={Sweets} />
+              <Route path='/desserts' components={Desserts} />
+              <Route path='/pies' components={Pies} />
+              <Route path='/cakes' components={Cakes} />
+              <Route path='/cookies' components={Cookies} />
+
             </Switch>
           </div>
         </Router>
