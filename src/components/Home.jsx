@@ -12,7 +12,7 @@ class Home extends React.Component {
       <div className="Home">
 
         <Carousel />
-
+        {/* <div className="menu-footer-container"></div> */}
       </div>
     )
 

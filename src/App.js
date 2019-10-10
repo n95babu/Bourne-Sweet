@@ -5,8 +5,8 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Desserts from './components/Desserts'
-import Pie from './components/Pies'
-import Cakes from './components/Cakes'
+import Pie from './components/Cakes'
+import Cakes from './components/Pies'
 import Cookies from './components/Cookies'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

@@ -20,25 +20,26 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse >
           <Nav  >
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-            <NavDropdown title="Sweets" id="basic-nav-dropdown">
+            <Nav.Link href="/about">OUR STORY</Nav.Link>
+            <Nav.Link href="/contact">CONTACT</Nav.Link>
+            <NavDropdown title="SWEETS" id="basic-nav-dropdown">
               <Link to='/desserts' >
-                <NavDropdown.Item href="/desserts">Desserts</NavDropdown.Item>
+                <NavDropdown.Item href="/desserts">DESSERTS</NavDropdown.Item>
               </Link>
               <Link to='/pies'>
-                <NavDropdown.Item href="/pies">Pies</NavDropdown.Item>
+                <NavDropdown.Item href="/pies">PIES</NavDropdown.Item>
               </Link>
               <Link to='/cakes'>
-                <NavDropdown.Item href="/cakes">Pies</NavDropdown.Item>
+                <NavDropdown.Item href="/cakes">CAKES</NavDropdown.Item>
               </Link>
               <Link to='/cookies'>
-                <NavDropdown.Item href="/cookies">Cookies</NavDropdown.Item>
+                <NavDropdown.Item href="/cookies">COOKIES</NavDropdown.Item>
               </Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar >
+
     </>
 
   );
