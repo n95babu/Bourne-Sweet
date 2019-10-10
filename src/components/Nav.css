@@ -1,8 +1,8 @@
-.nav-links li {
+/* .nav-links li {
   color: white;
-}
+} */
 
-nav {
+/* Nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,25 +11,23 @@ nav {
   background: lightpink;
   font-size: 20px;
   color: white;
-}
+} */
 
+/* 
 .nav-links {
   width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
-}
-
-nav li:hover {
-  color: red;
-}
-
-.bsweet_logo img {
-  width: 50px;
-}
+} */
 
 .bsweet_logo {
   margin: 0;
-  width: 60px;
+  width: 70px;
+  height: 70px;
 }
+
+/* Link:hover {
+  background: pink;
+} */

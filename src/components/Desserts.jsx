@@ -4,11 +4,10 @@ export class Desserts extends Component {
   render() {
     return (
       <div>
-        dessert page
-
+        <h1>Hello</h1>
       </div>
     )
   }
 }
 
-export default Desserts
+export default Desserts;
