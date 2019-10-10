@@ -33,11 +33,21 @@
 
 /* ======================Footer ====================*/
 
-footer {
+/* footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+} */
+
+Footer {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  color: grey;
+  margin-top: 40px;
+  /* background: red; */
+  letter-spacing: .02em;
 }
 
 .footer-icon {
@@ -47,6 +57,12 @@ footer {
   height: 60px;
 }
 
+footer li {
+  padding-bottom: 40px;
+}
+
+/* ====================       ============================= */
+
 li {
   display: flex;
   flex-direction: row;
@@ -54,7 +70,7 @@ li {
   align-items: center;
   padding-top: 5px;
   line-height: 1em;
-  border-left: solid 1px #dad9d9;
+  border-left: solid 1px #F8F9FA;
   padding: 0 0 0 0.5em;
   margin: 0 0 0 0.5em;
 }

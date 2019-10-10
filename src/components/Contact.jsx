@@ -39,6 +39,8 @@ class ContactForm extends React.Component {
           <Button type="submit">SUMBIT</Button>
         </form>
         <div className="address">
+          <h4>Contact us about designing favors for your next party.</h4>
+          <p>events@Bourne.com</p>
           <p className="bold">Bourne is located in
             <br />Brooklyn, NY 11238,
             <br />(718) 000-0000
