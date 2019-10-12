@@ -32,7 +32,7 @@ class ContactForm extends React.Component {
       <>
         {/* <div className="Contact_Title"> Contact us about designing favors for your next party.</div> */}
         <div className="form-address" id="contact">
-          <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact us about designing favors for your next party</p>
+          <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact Us</p>
             <input className="input" type="text" name="name" required onChange={this.handleFields} placeholder="Name" />
             <input className="input" type="text" name="email" required onChange={this.handleFields}
               placeholder="Email" />
