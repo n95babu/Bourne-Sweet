@@ -29,24 +29,18 @@ class ContactForm extends React.Component {
 
   render() {
     return (
-
-      <div className="form-address" id="contact">
-        <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact Us</p>
-          <input className="input" type="text" name="name" onChange={this.handleFields} placeholder="Name" />
-          <input className="input" type="text" name="email" onChange={this.handleFields}
-            placeholder="Email" />
-          <input className="input" type="" name="message" onChange={this.handleFields} placeholder="What's on your mind?" />
-          <Button type="submit">SUMBIT</Button>
-        </form>
-        <div className="address">
-          <h4>Contact us about designing favors for your next party.</h4>
-          <p>events@Bourne.com</p>
-          <p className="bold">Bourne is located in
-            <br />Brooklyn, NY 11238,
-            <br />(718) 000-0000
-            </p></div>
-      </div>
-
+      <>
+        {/* <div className="Contact_Title"> Contact us about designing favors for your next party.</div> */}
+        <div className="form-address" id="contact">
+          <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact us about designing favors for your next party</p>
+            <input className="input" type="text" name="name" required onChange={this.handleFields} placeholder="Name" />
+            <input className="input" type="text" name="email" required onChange={this.handleFields}
+              placeholder="Email" />
+            <input className="input" type="" name="message" required onChange={this.handleFields} placeholder="What's on your mind?" />
+            <Button type="submit" className="btn btn-dark">SUMBIT</Button>
+          </form>
+        </div>
+      </>
     )
   }
 }

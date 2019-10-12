@@ -17,11 +17,11 @@ const Navigation = () => {
           />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav " />
+        <Navbar.Toggle className="fuckig_nav" aria-controls="basic-navbar-nav " />
         <Navbar.Collapse >
-          <Nav  >
+          <Nav >
             <Nav.Link href="/about">OUR STORY</Nav.Link>
-            <Nav.Link href="/contact">CONTACT</Nav.Link>
+
             <NavDropdown title="SWEETS" id="basic-nav-dropdown">
               <Link to='/desserts' >
                 <NavDropdown.Item href="/desserts">DESSERTS</NavDropdown.Item>
@@ -36,6 +36,7 @@ const Navigation = () => {
                 <NavDropdown.Item href="/cookies">COOKIES</NavDropdown.Item>
               </Link>
             </NavDropdown>
+            <Nav.Link href="/contact">CONNECT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar >

@@ -9,9 +9,15 @@ body, html {
 }
 
 .contact-us {
-  font-size: 36px;
-  font-family: 'Nunito', sans-serif;
-  color: #747474;
+  font-weight: 300;
+  font-size: 25px;
+  color: #5E6578;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  padding: 0;
+  padding-top: 20px;
+  letter-spacing: .02em;
 }
 
 .contact-section {
@@ -54,14 +60,14 @@ body, html {
   margin-bottom: 33px;
 }
 
-.btn-outline-dark {
+/* .btn-outline-dark {
   margin-top: 1em;
   width: 110px;
-}
+} */
 
-.btn-outline-dark:hover {
-  background: pink;
-}
+/* button.btn.btn-dark.btn-primary:hover {
+  background: lightpink;
+} */
 
 .bold {
   font-size: 20px;
