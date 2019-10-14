@@ -28,6 +28,6 @@
   height: 70px;
 }
 
-/* div.navbar-collapse.collapse {
-  background-color: red;
-} */
+div.navbar-collapse.collapse {
+  text-align: right;
+}
