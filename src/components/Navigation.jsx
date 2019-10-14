@@ -19,7 +19,7 @@ const Navigation = () => {
 
         <Navbar.Toggle className="fuckig_nav" aria-controls="basic-navbar-nav " />
         <Navbar.Collapse >
-          <Nav >
+          <Nav className="collapse navbar-collapse justify-content-end" >
             <Nav.Link href="/about">OUR STORY</Nav.Link>
 
             <NavDropdown title="SWEETS" id="basic-nav-dropdown">
