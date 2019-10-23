@@ -7,8 +7,8 @@ import chef from '../assets /chef-photo.jpg'
 
 const About = () => {
   return (
-    <div className="About_Pg">
-      <h2 className="title">OUR STORY</h2>
+    <div className="page About_Pg">
+      <h2 className="title"></h2>
       {/* <div className="sub">
         When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
       </div> */}

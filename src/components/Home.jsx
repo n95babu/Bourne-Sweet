@@ -9,7 +9,7 @@ import Carousel from './ControlledCarousel'
 class Home extends React.Component {
   render() {
     return (
-      <div className="Home">
+      <div className="page Home">
 
         <Carousel />
         {/* <div className="menu-footer-container"></div> */}

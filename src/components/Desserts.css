@@ -1,15 +1,5 @@
-.pic-gallery {
-  display: grid;
-  grid-template-rows: 350px 350px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px 45px;
-  padding: 40px;
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .pic-gallery {
-    display: grid;
-    grid-template-columns: 49% 49%;
-    grid-gap: 1.2%;
-  }
+.MuiGridListTile-root {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
