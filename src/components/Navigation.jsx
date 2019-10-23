@@ -8,7 +8,7 @@ import logo from '../assets /bsweet.png'
 const Navigation = () => {
   return (
     <>
-      <Navbar bg="light" expand="sm" >
+      <Navbar bg="white" expand="sm" >
         <Navbar.Brand href="/">
           <img
             src={logo}

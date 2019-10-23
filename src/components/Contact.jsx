@@ -30,15 +30,16 @@ class ContactForm extends React.Component {
   render() {
     return (
       <>
-        {/* <div className="Contact_Title"> Contact us about designing favors for your next party.</div> */}
-        <div className="form-address" id="contact">
-          <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact Us</p>
-            <input className="input" type="text" name="name" required onChange={this.handleFields} placeholder="Name" />
-            <input className="input" type="text" name="email" required onChange={this.handleFields}
-              placeholder="Email" />
-            <input className="input" type="" name="message" required onChange={this.handleFields} placeholder="What's on your mind?" />
-            <Button type="submit" className="btn btn-dark">SUMBIT</Button>
-          </form>
+        <div className="page">
+          <div className="form-address" id="contact">
+            <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact Us</p>
+              <input className="input" type="text" name="name" required onChange={this.handleFields} placeholder="Name" />
+              <input className="input" type="text" name="email" required onChange={this.handleFields}
+                placeholder="Email" />
+              <input className="input" type="" name="message" required onChange={this.handleFields} placeholder="What's on your mind?" />
+              <Button type="submit" className="btn btn-dark">SUMBIT</Button>
+            </form>
+          </div>
         </div>
       </>
     )

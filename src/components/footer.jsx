@@ -1,21 +1,30 @@
 import React from 'react';
-import fb from '../assets /fb.png'
-import pin from '../assets /pin.png'
-import insta from '../assets /insta.png'
+import { makeStyles } from '@material-ui/core/styles';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
+import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
+
+const useStyles = makeStyles({
+})
 const Footer = () => {
-  return (
-    <>
-      <footer>
-        <div className="menu-footer-container"></div>
-        <a href="https://www.facebook.com/" target='blank'><img src={fb} className="footer-icon" alt="fb-icon" /></a>
-        <a href="https://www.instgram.com/" target='blank'><img src={insta} className="footer-icon" alt="instgram-icon" /></a>
-        <a href="https://www.pinterest.com" target='blank'><img src={pin} className="footer-icon" alt="Pinterest-icon" /></a>
-        <ul>© 2019 Bourne</ul>
-      </footer>
+  const classes = useStyles();
+  const [value, setValue] = React.useState('recents');
 
-    </>
-  )
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
+      <a href="https://www.facebook.com/" target='blank'> <BottomNavigationAction label="Recents" value="recents" icon={<FacebookIcon />} /> </a>
+      <a href="https://www.instagram.com/" target='blank'> <BottomNavigationAction label="Recents" value="recents" icon={<InstagramIcon />} /> </a>
+      <a href="https://www.twitter.com/" target='blank'> <BottomNavigationAction label="Recents" value="recents" icon={<TwitterIcon />} /> </a>
+
+    </BottomNavigation>
+  );
 }
 
 export default Footer;

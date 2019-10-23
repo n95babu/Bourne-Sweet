@@ -22,23 +22,9 @@
   display: none;
 }
 
-/* .carousel .slider img {
-  height: auto;
-  width: auto;
-  max-width: 400px;
-  max-height: 400px;
-} */
-
 /* ===================== Nav ========================== */
 
 /* ======================Footer ====================*/
-
-/* footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-} */
 
 Footer {
   text-align: center;
