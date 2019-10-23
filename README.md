@@ -1,5 +1,5 @@
 # Bourne-Sweet
-
+https://www.bourne.surge.sh
 ![Bourne-Sweet](https://images.unsplash.com/photo-1488474229303-56bb637803f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 <p style="text-align: center;"><em></em></p>
 
@@ -61,8 +61,9 @@ Team values, communication preferences, and other group expectations can be foun
 ## Functional Goals
 
 
-## Functional Heirarchy
+## Functional Heirarch
 
+```
 client
 |___ public
       |___ favicon.ico
@@ -75,6 +76,20 @@ client
       |___ components
             |___ Header.jsx
             |___ Footer.jsx
+             |___ About.jsx
+              |___ About.css
+              |___ Cake.jsx
+               |___ Contact.jsx
+                |___ Contact.css
+                |___ ControlledCarousel.jsx
+                 |___ Cookies.jsx
+                  |___ Cookies.css
+                  |___ Desserts.jsx
+                   |___ Desserts.css
+                   |___ Home.jsx
+                      |___ Pies.jsx
+                         |___ Navigation.jsx
+                          |___ Nav.css
 
       |___ pages
             |___ Home.jsx
@@ -84,8 +99,7 @@ client
       |___ index.css
       |___ index.js
       |___ logo.svg
-
-|___ readme.md
+      |___ readme.md
 ```
 
 
@@ -103,6 +117,8 @@ client
   * react-spring
   * react-with-gesture
   * react-star-rating
+  * react-bootstrip
+  
 
 <br>
 <br>
