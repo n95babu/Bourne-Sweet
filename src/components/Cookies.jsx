@@ -62,7 +62,7 @@ const tileData = [
 const Cookies = () => {
   const classes = useStyles();
   return (
-    <div className='page dess'>
+    <div className='page fott dess'>
       <div className={classes.root}>
         <GridList cellHeight={250} className={classes.gridList}>
           <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>

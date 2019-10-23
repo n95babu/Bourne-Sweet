@@ -1,5 +1,5 @@
 .page {
-  max-height: 100vh;
+  min-height: 100vh;
   /* max-width: 100vh; */
   /* padding: 300px; */
   text-align: center;
@@ -85,5 +85,7 @@ img {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .main_image {}
+  .fott {
+    min-height: 100vh;
+  }
 }
