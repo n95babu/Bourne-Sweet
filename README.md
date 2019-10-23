@@ -124,6 +124,3 @@ client
 <br>
 
 
-# Project Followup
-
-> Any tasks we would like to revisit after graduation go here.
