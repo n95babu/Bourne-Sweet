@@ -88,4 +88,7 @@ img {
   .fott {
     min-height: 100vh;
   }
+  .carousel.carousel-slider {
+    height: 300px;
+  }
 }
