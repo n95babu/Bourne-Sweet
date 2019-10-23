@@ -2,16 +2,10 @@ import React from 'react';
 import './About.css'
 import chef from '../assets /chef-photo.jpg'
 
-
-
-
 const About = () => {
   return (
     <div className="page About_Pg">
       <h2 className="title"></h2>
-      {/* <div className="sub">
-        When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-      </div> */}
       <div className="about_me_pic">
         <img src={chef} alt="Chef_Bourne" />
       </div>

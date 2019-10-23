@@ -19,9 +19,9 @@ const Footer = () => {
 
   return (
     <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-      <a href="https://www.facebook.com/" target='blank'> <BottomNavigationAction label="Recents" value="recents" icon={<FacebookIcon />} /> </a>
-      <a href="https://www.instagram.com/" target='blank'> <BottomNavigationAction label="Recents" value="recents" icon={<InstagramIcon />} /> </a>
-      <a href="https://www.twitter.com/" target='blank'> <BottomNavigationAction label="Recents" value="recents" icon={<TwitterIcon />} /> </a>
+      <a href="https://www.facebook.com/" target='blank'> <BottomNavigationAction value="recents" icon={<FacebookIcon />} /> </a>
+      <a href="https://www.instagram.com/" target='blank'> <BottomNavigationAction value="recents" icon={<InstagramIcon />} /> </a>
+      <a href="https://www.twitter.com/" target='blank'> <BottomNavigationAction value="recents" icon={<TwitterIcon />} /> </a>
 
     </BottomNavigation>
   );

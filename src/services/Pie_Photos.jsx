@@ -1,4 +1,3 @@
-
 export const photos = [
   {
     src: require('../assets /pie_1.jpg'),
