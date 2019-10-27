@@ -14,7 +14,7 @@ const Footer = () => {
   const classes = useStyles();
   const [value, setValue] = React.useState('recents');
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (newValue) => {
     setValue(newValue);
   };
 
@@ -22,7 +22,7 @@ const Footer = () => {
     <div className='Footer'>
       <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
         <a href="https://www.facebook.com/" target='blank'> <BottomNavigationAction value="recents" icon={<FacebookIcon />} /> </a>
-        <a href="https://www.instagram.com/" target='blank'> <BottomNavigationAction value="recents" icon={<InstagramIcon />} /> </a>
+        <a href="https://www.instagram.com/sbournesweet" target='blank'> <BottomNavigationAction value="recents" icon={<InstagramIcon />} /> </a>
         <a href="https://www.twitter.com/" target='blank'> <BottomNavigationAction value="recents" icon={<TwitterIcon />} /> </a>
 
       </BottomNavigation>
