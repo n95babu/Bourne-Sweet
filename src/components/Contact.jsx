@@ -37,7 +37,7 @@ class ContactForm extends React.Component {
               <input className="input" type="text" name="email" required onChange={this.handleFields}
                 placeholder="Email" />
               <input className="input" type="" name="message" required onChange={this.handleFields} placeholder="What's on your mind?" />
-              <Button type="submit" className="btn btn-dark">SUMBIT</Button>
+              <Button type="submit" className="btn btn-dark">SUBMIT</Button>
             </form>
           </div>
         </div>
