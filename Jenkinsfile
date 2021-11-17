@@ -9,5 +9,13 @@ pipeline {
                 }
             }   
         }  
+        stage('react-scripts start'){
+            steps {
+                 nodejs('NodeJS'){
+                    sh 'react-scripts start'
+                }
+            }
+        }
+        
     }
 }
