@@ -9,10 +9,10 @@ pipeline {
                 }
             }   
         }  
-        stage('react-scripts start'){
+        stage('Deploy'){
             steps {
                  nodejs('NodeJS'){
-                    sh 'react-scripts start'
+                    sh 'Node --version'
                 }
             }
         }
